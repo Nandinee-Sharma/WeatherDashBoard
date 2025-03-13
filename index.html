@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">🌍 Global Weather Dashboard</h1>
+
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="city-search" 
+                    placeholder="🔍 Search for a city"
+                >
+                <ul id="suggestions-list" class="suggestions-list"></ul>
+            </div>
+
+            <div id="current-location" class="current-location">
+                <h2>📍 New York City</h2>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">⏳ Loading weather data...</div>
+
+            <div id="error" class="error" style="display: none;"> </div>
+
+            <div id="weather-info" class="weather-info">
+                <div id="current-weather" class="current-weather">
+                    <h2>Current Weather</h2>
+                    <div id="temperature-container" class="temperature-container">
+                        <span id="temperature-icon">❓</span>
+                        <span id="temperature-text">--°C</span>
+                    </div>
+                    <p id="wind-detail" class="weather-detail">💨 Wind: -- km/h</p>
+                </div>
+
+                <div id="daily-forecast" class="daily-forecast">
+                    <h2 id="forecast">5-Day Forecast</h2>
+                    <div id="forecast-container"></div>
+                </div>
+            </div>
+
+            <a 
+                id="source-link" 
+                href="#" 
+                target="_top" 
+                class="source-link"
+            >
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
