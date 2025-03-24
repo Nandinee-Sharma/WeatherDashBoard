@@ -16,10 +16,12 @@ body {
 
 
 .container {
+    margin-top: 1%;
     width: 100%;
     max-width: 70%;
     display: flex;
     justify-content: center;
+    margin-bottom: 1%;
 }
 .card {
     display: flex;
@@ -31,6 +33,7 @@ body {
     padding: 30px;
     animation: fadeIn 0.5s ease-out;
     width: 100%;
+    margin-bottom: 1%;
 }
 #city-search {
     width: 100%;
