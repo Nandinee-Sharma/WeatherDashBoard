@@ -24,9 +24,6 @@ const temperatureIcon = document.getElementById('temperature-icon');
 const temperatureText = document.getElementById('temperature-text');
 const windDetail = document.getElementById('wind-detail');
 const forecastContainer = document.getElementById('forecast-container');
-const sourceLink = document.getElementById('source-link');
-
-sourceLink.href = window.location.href.replace("esm.town", "val.town");
 
 //State
 let currentLocationData = { 

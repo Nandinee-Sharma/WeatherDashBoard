@@ -219,14 +219,6 @@ h2{
     font-size: 0.9em;
 }
 
-.source-link {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    color: #667eea;
-    text-decoration: none;
-    transition: color 0.3s;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
