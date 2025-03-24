@@ -104,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 15px;
-    background-color: #fed4db;
+    background-color: #ffffff;
     color: rgb(205, 21, 82);
     border-radius: 10px;
     padding: 10%;
@@ -142,9 +142,9 @@ h2{
 .daily-forecast {
     flex: 1;
     padding: 20px;
-    background-color: #fed4db;
+    background-color: #ffffff;
     border-radius: 10px;
-    color: #d9374f;
+    color: #d93775;
     min-width: 250px;
 }
 
@@ -179,7 +179,7 @@ h2{
     width: 50%;
     flex: 1;
     padding-top: 10%;
-    background-color: #d9374f;
+    background-color: #1972ca;
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -187,7 +187,7 @@ h2{
 }
 .daily-item {
     margin-bottom: 10px;
-    background-color: #d9374f;
+    background-color: #1972ca;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -226,10 +226,6 @@ h2{
     color: #667eea;
     text-decoration: none;
     transition: color 0.3s;
-}
-
-.source-link:hover {
-    color: #764ba2;
 }
 
 /* Responsive Design */

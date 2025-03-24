@@ -17,8 +17,7 @@ A simple and interactive weather dashboard that provides real-time weather updat
 
 # view here: https://nandinee-sharma.github.io/WeatherDashBoard/
 
-# 📸Preview
-![alt text](preview.png)
+![alt text](image.png)
 
 # Future Improvements
  1. Add more weather details (humidity, pressure, etc.)
